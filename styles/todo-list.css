@@ -60,13 +60,13 @@ p{
   padding: 10px 15px;
   border: 0;
   border-radius: 20px;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   box-shadow: 1px 1px 5px rgba(81, 151, 102, 0.5) ;
 }
 
 .middle-sec input{
   width: 30%;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   color: black;
   background-color: rgb(128, 235, 160);
   box-shadow: 1px 1px 5px rgba(81, 151, 102, 0.5) ;
@@ -93,7 +93,7 @@ p{
   border-radius: 20px;
   color: white;
   background-color: rgb(14, 92, 66);
-  font-size: 0.7rem;
+  font-size: 1rem;
   cursor: pointer;
   transition: font-weight 0.5s;
 }
