@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="styles\todo-list.css">
+  <link rel="stylesheet" href="styles\todo-list-mobile.css">
+</head>
+<body>
+  <div class="container">
+    <div class="input-sec">
+      <p class="heading">Todo List</p> 
+
+      <input placeholder="Add Tasks" class="js-name-input name-input">
+
+      <p class="middle-sec">
+        <input type="date" class="js-dueDate-input due-date-input">
+        <input type="time" class="js-time-input due-time-input">
+      </p>
+
+      <p class="button-box">
+        <button class="add-todo-button js-add-todo-button">Add</button>
+      </p>
+      </div>
+
+      <div class="display-tasks">
+        <p class="heading"> Tasks</p>
+        <diV class="js-todo-list todo-list"></diV>
+      </div>
+  </div>
+
+  
+    
+  <script src="scripts/todo-list.js"></script>
+</body>
+</html>
